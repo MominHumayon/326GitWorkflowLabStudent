@@ -15,7 +15,7 @@ describe('Calculator Calculation Functions', function() {
     });
 
     it("should return 3", function () {
-        assert.strictEqual(calculator.calculateSquareRoot(9));
+        assert.strictEqual(calculator.calculateSquareRoot(9),3);
     });
 });
 
