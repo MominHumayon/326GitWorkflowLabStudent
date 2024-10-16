@@ -25,6 +25,10 @@ describe('Cosine Function', function() {
         assert.strictEqual(res, 1);
     });
 
+    it("should return 3", function () {
+        assert.strictEqual(calculator.calculateSquareRoot(9),3);
+    });
+
 
 
     it('should return -1 for cos(PI)', function() {
