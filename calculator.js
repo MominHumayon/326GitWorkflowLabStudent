@@ -14,11 +14,9 @@ function calculateSquare(value) {
 }
 
 // TODO: FIX reciprocal function
-function calculateReciprocal() {
-    // Hint: Reciprocal is 1/x
-    // return the square root of the value
-    return 1* value;
-
+function calculateReciprocal(value) {
+    if (value == 0) throw new Error("Cannot divide by zero");
+    else return 1 / value;
 }
 
 // TODO: Implement natural log function
