@@ -29,7 +29,8 @@ function naturalLog(value) {
 // TODO: Implement sine function
 function sine(value) {
     // return the sine of the value
-    return Math.sin(value)
+    //this takes in degrees and returns degrees. 
+    return Math.sin(Math.PI * (value/180)).toFixed(4)
 }
 
 // TODO: Implement cosine function
