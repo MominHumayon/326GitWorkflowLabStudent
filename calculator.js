@@ -2,6 +2,8 @@
 
 // TODO: Fix the square root function not displaying
 function calculateSquareRoot(value) {
+    if (value < 0)
+        return "Cannot perform operation"
     return Math.sqrt(value);
     // return the square root of the value
 }
