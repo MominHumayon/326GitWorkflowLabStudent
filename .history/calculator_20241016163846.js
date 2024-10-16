@@ -26,6 +26,7 @@ function naturalLog(value) {
     return Math.log(value);
 }
 
+
 // TODO: Implement sine function
 function sine(value) {
     // return the sine of the value
