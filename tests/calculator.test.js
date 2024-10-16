@@ -17,3 +17,13 @@ describe('Calculator Calculation Functions', function() {
 
 
 // Add your tests here
+describe('Calculator Reciprocal Function', function() {
+    const x = calculator.calculateReciprocal(5);
+    it('should return 0.2', function() {
+        assert.strictEqual(x, 0.2)
+    });
+    const y = calculator.calculateReciprocal(2);
+    it('should return 0.5', function() {
+        assert.strictEqual(y, 0.5)
+    })
+});
