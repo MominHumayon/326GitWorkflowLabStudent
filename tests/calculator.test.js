@@ -40,4 +40,10 @@ describe('Calculate the Sine values', () => {
         assert.strictEqual(res, '0.7071')
     });
 
+describe('Calculator square Functions', function() {
+    const res = calculator.calculateSquare(4);
+    it('should return 16', function() {
+        assert.strictEqual(res, 16);
+    });
 });
+ 
