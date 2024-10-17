@@ -42,8 +42,10 @@ function cosine(value) {
 
 // TODO: Implement tangent function
 function tangent(value) {
-    // return the tangent of the value
+    const radians = value * (Math.PI / 180); // Convert degrees to radians
+    return Math.tan(radians); // Return the tangent of the value
 }
+
 
 
 
@@ -52,6 +54,7 @@ module.exports = {
     calculateSquareRoot,
     calculateSquare,
     calculateReciprocal,
+    tangent,
     sine,
     cosine
 };
